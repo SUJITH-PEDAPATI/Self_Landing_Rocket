@@ -1,0 +1,24 @@
+[project]
+name = "rocket-landing-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "SUJITH PEDAPATI", email = "pedapatisujith@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "gymnasium[box2d]>=1.4.0",
+    "imageio-ffmpeg>=0.6.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "stable-baselines3>=2.9.0",
+    "tensorboard>=2.21.0",
+]
+
+[project.scripts]
+rocket-landing-ai = "rocket_landing_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

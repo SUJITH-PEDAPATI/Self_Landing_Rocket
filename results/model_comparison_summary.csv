@@ -1,0 +1,3 @@
+model,episodes,mean_reward,std_reward,stable_touchdowns,success_rate
+Baseline_PPO,10,196.93,56.3,4,0.4
+Reward_Shaped_PPO,10,254.82,21.9,10,1.0

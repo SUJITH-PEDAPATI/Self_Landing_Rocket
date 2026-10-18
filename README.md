@@ -1,4 +1,4 @@
-::: {align="center"}
+
 # 🚀 Rocket Landing AI
 
 ### A Reinforcement Learning Project for Autonomous Lunar Landing
@@ -508,8 +508,3 @@ open-source license.
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
-**Rocket Landing AI**\
-*Exploring reinforcement learning through autonomous lunar landing
-simulation.*
-:::
